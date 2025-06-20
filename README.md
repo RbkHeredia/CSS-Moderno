@@ -46,7 +46,7 @@ La sección .features utiliza un degradado dinámico generado con color-mix() qu
 Esto genera un fondo moderno, suave y consistente con la identidad visual.
 ---
 
-### 3. Grid layout responsivo con auto-fit y minmax()
+### ✅ 3. Grid layout responsivo con auto-fit y minmax()
 
 Para la sección de features y disposición de tarjetas se usó:
 
@@ -62,7 +62,7 @@ Esto asegura que las cards se distribuyan automáticamente y de forma fluida en 
 
 ---
 
-### 4. Variables CSS Globales (:root)
+### ✅ 4. Variables CSS Globales (:root)
 
 El sistema de diseño está gestionado mediante variables centralizadas para mantener consistencia:
 
@@ -82,7 +82,7 @@ Variables como --color-accent también fueron utilizadas para mezclas dinámicas
 
 ---
 
-### 5. Diseño responsivo sin media queries globales
+### ✅ 5. Diseño responsivo sin media queries globales
 
 Gracias a container queries, los componentes como .hero y .feature-card responden a su ancho interno, eliminando la necesidad de media queries generales y mejorando la escalabilidad del diseño modular.
 
@@ -116,12 +116,6 @@ Diseño adaptativo, moderno y limpio con características de CSS de última gene
 - `color-mix()` con `linear-gradient()`  
 - Layout fluido con Grid moderno  
 - Variables CSS y estructura clara  
-
----
-
-### 📸 Vista previa
-
-*(incluir imagen aquí si es necesario)*
 
 ---
 
